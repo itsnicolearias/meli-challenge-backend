@@ -1,0 +1,27 @@
+{
+  "name": "meli-challenge-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Magneto quiere reclutar la mayor cantidad de mutantes para poder luchar contra los X-Men.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnicolearias/meli-challenge-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnicolearias/meli-challenge-backend/issues"
+  },
+  "homepage": "https://github.com/itsnicolearias/meli-challenge-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.3"
+  }
+}
