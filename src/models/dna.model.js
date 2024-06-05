@@ -17,7 +17,7 @@ export const Dna = sequelize.define(
       allowNull: false,
       unique: true,
     },
-    IsMutant: {
+    isMutant: {
         type: DataTypes.BOOLEAN,
         allowNull: false,
         field: 'is_mutant'
