@@ -14,8 +14,14 @@ export const Dna = sequelize.define(
     },
     dna: {
       type: DataTypes.JSONB,
-      allowNull: false
+      allowNull: false,
+      unique: true,
     },
+    IsMutant: {
+        type: DataTypes.BOOLEAN,
+        allowNull: false,
+        field: 'is_mutant'
+      },
   },
   {
     // Other model options go here
