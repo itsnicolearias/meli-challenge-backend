@@ -13,7 +13,7 @@ export const Dna = sequelize.define(
       primaryKey: true,
     },
     dna: {
-      type: DataTypes.STRING,
+      type: DataTypes.JSONB,
       allowNull: false
     },
   },
